@@ -9,22 +9,26 @@ const mywork_data = [
     {
         w_no:1,
         w_name:"Web design",
-        w_img:project1_img
+        w_img:project1_img,
+        path: "https://ecommerce-paypal-client.onrender.com"
     },
     {
         w_no:2,
         w_name:"Web design",
-        w_img:project2_img
+        w_img:project2_img,
+        path: null
     },
     {
         w_no:3,
         w_name:"Web design",
-        w_img:project3_img
+        w_img:project3_img,
+        path: "https://vite-commerce-client.onrender.com"
     },
     {
         w_no:4,
         w_name:"Web design",
-        w_img:project4_img
+        w_img:project4_img,
+        path: "https://re-commerce-client.onrender.com"
     },
 
 ]
