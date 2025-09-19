@@ -1,5 +1,6 @@
 import "./hero.css";
-import profile_img from "../../assets/profile_img.svg";
+//import profile_img from "../../assets/profile_img.svg";
+import profile_img from "../../assets/portfolio_img.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
@@ -7,12 +8,17 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={profile_img} alt="profile_image" />
       <h1>
-        <span>I'm Peter Tobi,</span> a full-stack developer from Nigeria.
+        I'm Peter Tobi. 
       </h1>
-      <p>
-        A brief description of my web developer journey will go in here. I
-        started by being a writer and eventually gravited towards web
-        development.
+      <h2>A full-stack developer.</h2>
+      <p style={{marginBottom: "12px"}}>
+        I thrive on the entire development lifecycle, from conceptualization and
+        design to implementation, testing, and deployment. I am adept at
+        translating complex requirements into elegant and functional code,
+        always striving for clean architecture and best practices. </p>
+        <p>Beyond the
+        technical aspects, I am a <i>collaborative team player</i> who enjoys
+        problem-solving and continuous learning.
       </p>
       <div className="hero-action">
         <div className="hero-connect">

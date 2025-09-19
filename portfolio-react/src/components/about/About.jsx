@@ -1,6 +1,7 @@
 import "./about.css"
 import theme_pattern from "../../assets/theme_pattern.svg"
-import profile_image from "../../assets/about_profile.svg"
+// import profile_image from "../../assets/about_profile.svg"
+import profile_image from "../../assets/portfolio_img.png"
 
 const About = () => {
   return (
@@ -15,14 +16,15 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Many lines of text for paragraph one. Many lines of text for paragraph one. Many lines of text for paragraph one.</p>
-                    <p>Many lines of text for paragraph two. Many lines of text for paragraph two.</p>
+                    <h3>Hello there! I'm excited to share a bit about myself.</h3>
+                    <p>I am a passionate and results-oriented <i>MERN stack developer </i> with a keen eye for detail and a commitment to building robust, scalable, and user-friendly web applications.</p>
+                    <p>My journey in web development has led me to master the core technologies of the MERN stack:</p>
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width: '50%'}}/></div>
-                    <div className="about-skill"><p>React JS</p><hr style={{width: '70%'}}/></div>
-                    <div className="about-skill"><p>JavaScript</p><hr style={{width: '60%'}}/></div>
-                    <div className="about-skill"><p>Next JS</p><hr style={{width: '50%'}}/></div>
+                    <div className="about-skill"><p>MONGO RB</p><hr style={{width: '50%'}}/></div>
+                    <div className="about-skill"><p>EXPRESS JS</p><hr style={{width: '70%'}}/></div>
+                    <div className="about-skill"><p>React JS</p><hr style={{width: '60%'}}/></div>
+                    <div className="about-skill"><p>NODE JS</p><hr style={{width: '50%'}}/></div>
                 </div>
             </div>
         </div>
